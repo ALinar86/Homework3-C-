@@ -6,8 +6,10 @@
   }
   else Console.WriteLine("No, your number isn't palindrome.");
 }
+
 Console.Write("Input five-digit number: ");
 string number = Convert.ToString(Console.ReadLine());
+
 if (number.Length == 5)
 {
   Palindrome(number);
